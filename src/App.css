@@ -1,0 +1,55 @@
+header, footer{
+    height: 92px;
+    width: 100%;
+    background-color: #FAE100;
+    display: flex;
+
+}
+
+header img, footer img{
+    height: 65%;
+    margin: auto;
+}
+body {
+    font-family: "lato";
+
+}
+  @font-face {
+    font-family: 'Rubik';
+    src: url('./Assets/font/Rubik-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'RubikBold';
+    src: url('./Assets/font/Rubik-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'lato';
+    src: url('./Assets/font/Lato-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'latoBold';
+    src: url('./Assets/font/Lato-Bold.ttf') format('truetype');
+  }
+  
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width:340px) {
+  header img, footer img{
+    height: 48%;
+    margin: auto;
+  }
+  }
+

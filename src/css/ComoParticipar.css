@@ -1,0 +1,302 @@
+#comoParticiparTitulo {
+  font-family: "latoBold";
+  font-size: 55px;
+  color: white;
+}
+
+.gridParticipar {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 45% 10% 45%;
+  grid-template-rows: 100%;
+  gap: 100% 0px;
+  grid-template-areas: "app Separador registro";
+  width: 60%;
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  line-height: normal;
+  height: fit-content;
+}
+
+.gridParticipar p {
+  margin: 0;
+}
+
+.line {
+  height: 90%;
+  width: 8px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.app {
+  grid-area: app;
+  text-align: end;
+
+  font-family: "lato";
+}
+
+#classSpanParticipar {
+  font-family: "latoBold";
+  font-size: 40px;
+}
+
+.Separador {
+  grid-area: Separador;
+  height: 100%;
+}
+
+.registro {
+  grid-area: registro;
+  text-align: start;
+}
+
+.botonStyle {
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  color: #0ba2dd;
+  font-family: "latoBold";
+  font-size: 42px;
+  border-radius: 40px;
+  border-color: white;
+  -webkit-box-shadow: 0px 10px 21px 5px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 10px 21px 5px rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+
+.oportunidades {
+  height: 700px;
+  width: 80%;
+  background-color: #eeeeee;
+  margin-top: 75px !important;
+  border-radius: 40px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.oportunidadescontent {
+  margin: auto;
+  width: 80%;
+  line-height: normal;
+}
+
+.h2TituloOportunidades {
+  font-family: "latoBold";
+  color: #37455c;
+  text-shadow: black !important;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+.textoOportunidades {
+  color: #38465d;
+  font-size: 30px;
+  font-family: "latoBold";
+  text-align: start;
+}
+
+ul {
+  list-style-type: "-";
+  margin-left: 5%;
+}
+
+#brvisual {
+  display: none;
+}
+
+.btnConoce {
+  height: 80px;
+  font-family: "latoBold";
+  background-color: #ffffff;
+  border-style: none;
+  font-size: 50px;
+  color: #00a0e3;
+  border-radius: 40px;
+  width: 55%;
+}
+
+#inputStyle {
+  background-color: #00a0e3;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 40px;
+  height: 40px;
+  margin-bottom: 23px;
+}
+
+#containerModal {
+  width: 400px;
+  border-radius: 40px;
+}
+
+#btnInscribirme {
+  width: 80%;
+  margin: auto;
+  height: 54px;
+  background-color: #fae100;
+  color: #00a0e3;
+  border-radius: 40px;
+  border: none;
+  font-family: "latoBold";
+  font-size: 30px;
+}
+
+.modal-content {
+  border-radius: 40px !important;
+}
+#textTerminos {
+  font-size: 23px;
+  color: #00a0e3;
+  font-family: "latoBold";
+}
+#containerSpace {
+  display: none;
+}
+#appleButton {
+  height: fit-content;
+  margin: auto;
+  padding: 0.7rem;
+}
+
+@media (max-width: 1000px) {
+  #appleButton {
+    padding: 1.1rem;
+  }
+
+  #containerSpace {
+    display: block;
+    height: 1rem;
+  }
+  .gridParticipar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.3fr 0.2fr 1.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "app app app"
+      "Separador Separador Separador"
+      "registro registro registro";
+    text-align: center;
+  }
+
+  .app {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .registro {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .line {
+    width: 100%;
+    height: 5px;
+    border-radius: 40px;
+    background-color: white;
+  }
+
+  .oportunidades {
+    width: 90%;
+    height: fit-content;
+  }
+
+  #classSpanParticipar {
+    font-size: 25px;
+  }
+
+  .h2TituloOportunidades {
+    font-size: 30px;
+  }
+
+  .textoOportunidades {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-left: -12%;
+  }
+
+  #brvisual {
+    display: block;
+  }
+
+  #imglista {
+    width: 60%;
+  }
+
+  .btnConoce {
+    display: none;
+  }
+
+  .botonStyle {
+    font-size: 25px;
+    height: 51px;
+    -webkit-box-shadow: 0px 3px 10px -3px rgb(0 0 0 / 0.5);
+    box-shadow: 0px 3px 10px -3px rgb(0 0 0 / 0.5);
+  }
+}
+@media (max-width: 750px) {
+  #appleButton {
+    padding: 0.8rem;
+  }
+}
+@media (max-width: 550px) {
+  #appleButton {
+    padding: 0.6rem;
+  }
+}
+@media (max-width: 450px) {
+  @media (max-width: 750px) {
+    #appleButton {
+      padding: 0.5rem;
+    }
+  }
+  #containerModal {
+    width: 300px;
+    border-radius: 40px;
+  }
+  .modal {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 380px) {
+  #appleButton {
+    padding: 0.4rem;
+  }
+
+  #containerModal {
+    width: 300px;
+    border-radius: 40px;
+  }
+  .modal {
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+}
+@media (max-width: 350px) {
+  #containerModal {
+    width: auto;
+    border-radius: 40px;
+  }
+  .modal {
+    margin-top: 6%;
+    margin-left: 1%;
+  }
+  .oportunidades {
+    margin-top: 0px !important;
+  }
+  #btnInscribirme {
+    font-size: 25px;
+  }
+}
