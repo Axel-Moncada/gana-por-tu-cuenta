@@ -3,6 +3,7 @@ import React, {useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import cerdito from "../Assets/img/cerdito.png";
 import wulogo from "../Assets/img/wulogo.png";
+import iconobu from "../Assets/img/icono-BU.png";
 import googleplay from "../Assets/img/googleplay.png";
 import apple from "../Assets/img/appstore.png";
 import { Modal, ModalBody, ModalHeader } from "react-bootstrap";
@@ -148,6 +149,31 @@ export const ComoParticipar = () => {
                   <span style={{ color: "#00A0E3" }}>01 8000 111 999</span>{" "}
                 </li>
                 <li className="textoOportunidades">Directo a la cuenta</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+          <br />
+          
+          <div className="row">
+          
+            <div className="col-md-3 col-12">
+              <img src={iconobu} alt="imglogowesternunion" id="imglista" />
+            </div>
+            <div className="col-md-9 col-12">
+              <p className="textoOportunidades">
+                <br id="brvisual" />
+                Red de Oficinas a <span style={{ color: "#00A0E3" }}>nivel nacional</span>{" "} 
+              </p>
+              <ul>
+                <li className="textoOportunidades">
+                  Informar al asesor de <span style={{ color: "#00A0E3" }}>Banco Unión </span>{" "} en ventanilla su deseo de abonar el giro en la cuenta.{" "}
+                  
+                </li>
+                <li className="textoOportunidades">
+                Informar el nombre de la persona y el país desde donde envían el dinero con el<span style={{ color: "#00A0E3" }}> código MTCN. </span>{" "} 
+                </li>
+                <li className="textoOportunidades">Presentar documento de identidad.</li>
               </ul>
             </div>
           </div>
