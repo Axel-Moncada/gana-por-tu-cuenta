@@ -78,13 +78,17 @@ export const ComoParticipar = () => {
             </p>
             <br />
             <div className="row">
-              <img src={apple} id="appleButton" alt="" className="col-6" />
+            <a href="https://apps.apple.com/co/app/banco-uni%C3%B3n-colombia/id1541850571">
+              <img src={apple} id="appleButton" alt="" className="col-6 img-app" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.girosyfinanzas.omni&hl=es_CO&gl=US&pli=1">
               <img
                 src={googleplay}
                 alt=""
-                className="col-6"
+                className="col-6 img-app "
                 style={{ padding: "0rem" }}
               />
+              </a>
             </div>
           </div>
           <div class="Separador">
