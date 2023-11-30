@@ -159,16 +159,10 @@ ul {
 #containerSpace {
   display: none;
 }
-#appleButton {
-  height: fit-content;
-  margin: auto;
-  padding: 0.7rem;
-}
+
 
 @media (max-width: 1000px) {
-  #appleButton {
-    padding: 1.1rem;
-  }
+ 
 
   #containerSpace {
     display: block;
@@ -253,14 +247,10 @@ ul {
   }
 }
 @media (max-width: 750px) {
-  #appleButton {
-    padding: 0.8rem;
-  }
+  
 }
 @media (max-width: 550px) {
-  #appleButton {
-    padding: 0.6rem;
-  }
+ 
 
   #btnInscribirme{
     font-family: latoBold;
@@ -269,9 +259,7 @@ ul {
 }
 @media (max-width: 450px) {
   @media (max-width: 750px) {
-    #appleButton {
-      padding: 0.5rem;
-    }
+   
   }
   #containerModal {
     width: 300px;
@@ -283,9 +271,7 @@ ul {
   }
 }
 @media (max-width: 380px) {
-  #appleButton {
-    padding: 0.4rem;
-  }
+  
 
   #containerModal {
     width: 300px;
