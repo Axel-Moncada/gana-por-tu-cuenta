@@ -73,13 +73,13 @@ export const ComoParticipar = () => {
                 Si aún no tienes tu cuenta de ahorro
               </span>
               <br />
-              Acércate a nuestras oficinas y ábrela
+              ábrela en tu
 
             </p>
             <br />
             <div className="row">
               <a className="botonStyle maplocator" href="https://la-url-deseada.com" target="_blank" rel="noopener noreferrer">
-                Oficina más cercana.
+              Oficina más cercana
               </a>
             </div>
           </div>
