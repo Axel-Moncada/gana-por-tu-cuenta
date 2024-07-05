@@ -78,7 +78,7 @@ export const ComoParticipar = () => {
             </p>
             <br />
             <div className="row">
-              <a className="botonStyle maplocator" href="https://la-url-deseada.com" target="_blank" rel="noopener noreferrer">
+              <a className="botonStyle maplocator" href="https://www.bancounion.com/wps/portal/bancounion/web/servicio-cliente/nuestras-oficinas" target="_blank" rel="noopener noreferrer">
               Oficina más cercana
               </a>
             </div>
