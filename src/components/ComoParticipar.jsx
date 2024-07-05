@@ -4,8 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import cerdito from "../Assets/img/cerdito.png";
 import wulogo from "../Assets/img/wulogo.png";
 import iconobu from "../Assets/img/icono-BU.png";
-import googleplay from "../Assets/img/googleplay.png";
-import apple from "../Assets/img/appstore.png";
+
 import { Modal, ModalBody, ModalHeader } from "react-bootstrap";
 import "../css/ComoParticipar.css";
 import { useForm } from "react-hook-form";
