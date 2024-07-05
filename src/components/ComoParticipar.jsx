@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import cerdito from "../Assets/img/cerdito.png";
@@ -74,20 +74,13 @@ export const ComoParticipar = () => {
                 Si aún no tienes tu cuenta de ahorro
               </span>
               <br />
-              Descarga la APP Banco Unión y ábrela gratis
+              Acércate a nuestras oficinas y ábrela
+
             </p>
             <br />
             <div className="row">
-            <a href="https://apps.apple.com/co/app/banco-uni%C3%B3n-colombia/id1541850571">
-              <img src={apple} id="appleButton" alt="" className="col-6 img-app" />
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.girosyfinanzas.omni&hl=es_CO&gl=US&pli=1">
-              <img
-                src={googleplay}
-                alt=""
-                className="col-6 img-app "
-                style={{ padding: "0rem" }}
-              />
+              <a className="botonStyle maplocator" href="https://la-url-deseada.com" target="_blank" rel="noopener noreferrer">
+                Oficina más cercana.
               </a>
             </div>
           </div>
@@ -146,7 +139,7 @@ export const ComoParticipar = () => {
               <ul>
                 <li className="textoOportunidades">
                   Nuestro portal web{" "}
-                  <span style={{ color: "#00A0E3" }}>www.bancounion.com</span>{" "}
+                  <span style={{ color: "#00A0E3" }}> <a className="enlace" href="https://www.bancounion.com/wps/portal/bancounion" target="_blank" rel="noopener noreferrer" >  www.bancounion.com </a> </span>{" "}
                 </li>
                 <li className="textoOportunidades">
                   Nuestra línea nacional <br id="brvisual" />
@@ -158,24 +151,24 @@ export const ComoParticipar = () => {
           </div>
           <br />
           <br />
-          
+
           <div className="row">
-          
+
             <div className="col-md-3 col-12">
               <img src={iconobu} alt="imglogowesternunion" id="imglista" />
             </div>
             <div className="col-md-9 col-12">
               <p className="textoOportunidades">
                 <br id="brvisual" />
-                Red de Oficinas a <span style={{ color: "#00A0E3" }}>nivel nacional</span>{" "} 
+                Red de Oficinas a <span style={{ color: "#00A0E3" }}>nivel nacional</span>{" "}
               </p>
               <ul>
                 <li className="textoOportunidades">
                   Informar al asesor de <span style={{ color: "#00A0E3" }}>Banco Unión </span>{" "} en ventanilla su deseo de abonar el giro en la cuenta.{" "}
-                  
+
                 </li>
                 <li className="textoOportunidades">
-                Informar el nombre de la persona y el país desde donde envían el dinero con el<span style={{ color: "#00A0E3" }}> código MTCN. </span>{" "} 
+                  Informar el nombre de la persona y el país desde donde envían el dinero con el<span style={{ color: "#00A0E3" }}> código MTCN. </span>{" "}
                 </li>
                 <li className="textoOportunidades">Presentar documento de identidad.</li>
               </ul>
@@ -183,8 +176,9 @@ export const ComoParticipar = () => {
           </div>
           <br /> <br />
           {/*<button className="btnConoce">Conoce más aquí</button>*/}
-          <span id="textTerminos">
-            *Aplican Términos y Condiciones. Imágenes de referencia.
+          <span  id="textTerminos">
+            <a href="https://www.bancounion.com/wps/wcm/connect/bancounion/1ab99043-5b13-4162-8e6e-99b92dfb42ed/TYC+PRUEBA.pdf?MOD=AJPERES&attachment=false&id=1720189662940" target="_blank" rel="noopener noreferrer"> *Aplican Términos y Condiciones.</a> Imágenes de referencia. 
+
           </span>
           <div id="containerSpace"></div>
         </div>

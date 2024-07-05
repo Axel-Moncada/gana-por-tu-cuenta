@@ -47,7 +47,7 @@ export const IntroLanding = () => {
       </div>
       <div id="chatcontainer">
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B573183349462&text&type=phone_number&app_absent=0"
+          href="https://wa.me/+573176390044"
           target="_blank" rel="noreferrer"
         >
           <img src={chat} alt="imgchat" id="chatImg" />
