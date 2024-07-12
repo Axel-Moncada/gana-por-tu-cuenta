@@ -63,6 +63,12 @@
   text-align: start;
 }
 
+.tycp{
+  margin-top: 40px;
+  text-align: justify;
+  font-size: 10px;
+}
+
 .botonStyle {
   height: 56px;
   width: 100%;
