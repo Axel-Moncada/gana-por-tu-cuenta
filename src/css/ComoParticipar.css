@@ -12,7 +12,7 @@
   grid-template-rows: 100%;
   gap: 100% 0px;
   grid-template-areas: "app Separador registro";
-  width: 60%;
+  width: 70%;
   color: white;
   font-size: 30px;
   margin: auto;
@@ -22,6 +22,7 @@
 
 
 .maplocator {
+  
   text-decoration: none;
   text-align: center;
 }
@@ -29,6 +30,8 @@
 .maplocator:hover {
   color: #00a3e1;
 }
+
+
 
 .gridParticipar p {
   margin: 0;
@@ -43,7 +46,7 @@
 
 .app {
   grid-area: app;
-  text-align: end;
+  text-align: center;
 
   font-family: "lato";
 }
@@ -51,6 +54,8 @@
 #classSpanParticipar {
   font-family: "latoBold";
   font-size: 40px;
+  
+  
 }
 
 .Separador {
@@ -60,7 +65,8 @@
 
 .registro {
   grid-area: registro;
-  text-align: start;
+  text-align: center;
+  
 }
 
 .tycp{
@@ -79,8 +85,9 @@
   border-radius: 40px;
   border-color: white;
   -webkit-box-shadow: 0px 10px 21px 5px rgba(0, 0, 0, 0.38);
-  box-shadow: 0px 10px 21px 5px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 10px 21px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  margin-top: 20px;
 }
 
 .oportunidades {
@@ -190,7 +197,9 @@ ul {
 
 @media (max-width: 1000px) {
  
-
+  .line{
+    display: none;
+  }
   #containerSpace {
     display: block;
     height: 1rem;
@@ -212,6 +221,10 @@ ul {
     text-align: center;
     font-size: 18px;
   }
+  .maplocator{
+    padding-top: 8px; 
+  }
+  
 
   .registro {
     text-align: center;
@@ -285,6 +298,11 @@ ul {
   }
 }
 @media (max-width: 450px) {
+  .maplocator{
+    padding-top: 10px; 
+  }
+
+  
   @media (max-width: 750px) {
    
   }

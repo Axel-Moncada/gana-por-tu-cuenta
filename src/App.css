@@ -7,7 +7,7 @@ header, footer{
 }
 
 header img, footer img{
-    height: 65%;
+    height: 100%;
     margin: auto;
 }
 body {

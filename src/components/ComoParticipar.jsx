@@ -70,16 +70,16 @@ export const ComoParticipar = () => {
           <div class="app">
             <p>
               <span id="classSpanParticipar">
-                Si aún no tienes tu cuenta de ahorro
+                Si no tienes Cuenta de Ahorro
               </span>
-              <br />
-              ábrela en tu
+              
+             
 
             </p>
-            <br />
+            
             <div className="row">
               <a className="botonStyle maplocator" href="https://www.bancounion.com/wps/portal/bancounion/web/servicio-cliente/nuestras-oficinas" target="_blank" rel="noopener noreferrer">
-              Oficina más cercana
+              ábrela aquí
               </a>
             </div>
           </div>
@@ -89,14 +89,13 @@ export const ComoParticipar = () => {
           <div class="registro">
             <p>
               <span id="classSpanParticipar">
-                Si ya tienes tu Cuenta de ahorro
+                Si tienes tu Cuenta de Ahorro
               </span>
-              <br />
-              Regístrate e inscribe tu cuenta para participar
+             
             </p>
-            <br />
+            
             <button className="botonStyle" onClick={handleShow}>
-              Registrarme
+              regístrala aquí
             </button>
           </div>
         </div>
@@ -117,7 +116,7 @@ export const ComoParticipar = () => {
               <p className="textoOportunidades">
                 Por cada $50.000 que aumentes en el saldo de tu{" "}
                 <span style={{ color: "#00A0E3" }}>
-                  Cuenta de Ahorros Banco Unión.
+                  Cuenta de Ahorro Banco Unión.
                 </span>{" "}
               </p>
             </div>
@@ -132,7 +131,7 @@ export const ComoParticipar = () => {
               <p className="textoOportunidades">
                 <br id="brvisual" />
                 Abonando tus Giros Western Union directo a tu{" "}
-                <span style={{ color: "#00A0E3" }}>Cuenta de Ahorros</span> a
+                <span style={{ color: "#00A0E3" }}>Cuenta de Ahorro</span> a
                 través de:{" "}
               </p>
               <ul>
@@ -144,7 +143,7 @@ export const ComoParticipar = () => {
                   Nuestra línea nacional <br id="brvisual" />
                   <span style={{ color: "#00A0E3" }}>01 8000 111 999</span>{" "}
                 </li>
-                <li className="textoOportunidades">Directo a la cuenta</li>
+                <li className="textoOportunidades">Abono de Giro directo a la Cuenta</li>
               </ul>
             </div>
           </div>
@@ -159,17 +158,17 @@ export const ComoParticipar = () => {
             <div className="col-md-9 col-12">
               <p className="textoOportunidades">
                 <br id="brvisual" />
-                Red de Oficinas a <span style={{ color: "#00A0E3" }}>nivel nacional</span>{" "}
+                Red de Oficinas a <span style={{ color: "#00A0E3" }}>nivel nacional </span>{" "}
               </p>
               <ul>
                 <li className="textoOportunidades">
-                  Informar al asesor de <span style={{ color: "#00A0E3" }}>Banco Unión </span>{" "} en ventanilla su deseo de abonar el giro en la cuenta.{" "}
+                  Informa al asesor de <span style={{ color: "#00A0E3" }}>Banco Unión </span>{" "} en ventanilla tu deseo de abonar el Giro en la Cuenta.{" "}
 
                 </li>
                 <li className="textoOportunidades">
-                  Informar el nombre de la persona y el país desde donde envían el dinero con el<span style={{ color: "#00A0E3" }}> código MTCN. </span>{" "}
+                  Informa el nombre de la persona y el país desde donde te envían el dinero con el<span style={{ color: "#00A0E3" }}> código MTCN. </span>{" "}
                 </li>
-                <li className="textoOportunidades">Presentar documento de identidad.</li>
+                <li className="textoOportunidades">Presenta tu documento de identidad.</li>
               </ul>
 
              

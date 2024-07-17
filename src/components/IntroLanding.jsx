@@ -38,7 +38,7 @@ export const IntroLanding = () => {
             <span style={{ margin: "auto", color: "white" }}>
               Con tu{" "}
               <b style={{ color: "#FFE200", fontFamily: "latoBold" }}>
-                Cuenta de Ahorros Banco Unión
+                Cuenta de Ahorro Banco Unión
               </b>{" "}
             </span>
           </div>
