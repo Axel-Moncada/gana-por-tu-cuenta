@@ -76,7 +76,7 @@ export const ComoParticipar = () => {
             </p>
             
             <button className="botonStyle" onClick={handleShow}>
-              regístrala aquí
+            regístrate aquí
             </button>
           </div>
           
