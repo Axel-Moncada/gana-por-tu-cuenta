@@ -206,14 +206,13 @@ ul {
   }
   .gridParticipar {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1.3fr 0.2fr 1.5fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.3fr ;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "app app app"
-      "Separador Separador Separador"
-      "registro registro registro";
+      
+      "registro";
     text-align: center;
   }
 
