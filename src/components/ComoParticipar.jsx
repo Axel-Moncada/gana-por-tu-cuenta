@@ -67,26 +67,7 @@ export const ComoParticipar = () => {
         <span id="comoParticiparTitulo">¿Cómo Participar?</span>
 
         <div class="gridParticipar">
-          <div class="app">
-            <p>
-              <span id="classSpanParticipar">
-                Si no tienes Cuenta de Ahorro
-              </span>
-              
-             
-
-            </p>
-            
-            <div className="row">
-              <a className="botonStyle maplocator" href="https://www.bancounion.com/wps/portal/bancounion/web/servicio-cliente/nuestras-oficinas" target="_blank" rel="noopener noreferrer">
-              ábrela aquí
-              </a>
-            </div>
-          </div>
-          <div class="Separador">
-            <div className="line"></div>
-          </div>
-          <div class="registro">
+        <div class="registro">
             <p>
               <span id="classSpanParticipar">
                 Si tienes tu Cuenta de Ahorro
@@ -98,6 +79,9 @@ export const ComoParticipar = () => {
               regístrala aquí
             </button>
           </div>
+          
+         
+          
         </div>
       </div>
 
